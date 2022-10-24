@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{6C724BBD-131B-4ECB-9ECA-4924B461D35C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>HarikenEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)DAT\GameDev\SDL2-2.0.7\include;$(SolutionDir)DAT\GameDev\SDL2_image-devel-2.0.1-VC\SDL2_image-2.0.1\include;$(SolutionDir)DAT\GameDev\glew-2.1.0-win32\glew-2.1.0\include\GL</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)DAT\GameDev\SDL2-devel-2.0.5-VC\SDL2-2.0.5\include;$(SolutionDir)DAT\GameDev\SDL2_image-devel-2.0.1-VC\SDL2_image-2.0.1\include;$(SolutionDir)DAT\GameDev\glew-2.1.0-win32\glew-2.1.0\include\GL</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)DAT\GameDev\SDL2-2.0.7\include;$(SolutionDir)DAT\GameDev\SDL2_image-devel-2.0.1-VC\SDL2_image-2.0.1\include;$(SolutionDir)DAT\GameDev\glew-2.1.0-win32\glew-2.1.0\include\GL</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)DAT\GameDev\SDL2-devel-2.0.5-VC\SDL2-2.0.5\include;$(SolutionDir)DAT\GameDev\SDL2_image-devel-2.0.1-VC\SDL2_image-2.0.1\include;$(SolutionDir)DAT\GameDev\glew-2.1.0-win32\glew-2.1.0\include\GL</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>DAT\GameDev\freealut-master\include\AL;DAT\GameDev\openal-soft-1.19.1-bin\include\AL;DAT\GameDev\SDL2-2.0.7\include;DAT\GameDev\SDL2-2.0.7\lib\include;DAT\GameDev\SDL2_image-devel-2.0.1-VC\SDL2_image-2.0.1\include;%(AdditionalDependencies);DAT\GameDev\glm-0.9.7.3\glm\glm;DAT\GameDev\glew-2.1.0-win32\glew-2.1.0\include\GL;DAT\GameDev\freetype-2.9.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;6011;26495;4305</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;opengl32.lib;DAT\GameDev\SDL2-2.0.7\lib\x86\SDL2.lib;DAT\GameDev\SDL2-2.0.7\lib\x86\SDL2main.lib;DAT\GameDev\SDL2_image-devel-2.0.1-VC\SDL2_image-2.0.1\lib\x86\SDL2_image.lib;DAT\GameDev\glew-2.1.0-win32\glew-2.1.0\lib\Release\Win32\glew32.lib;DAT\GameDev\glew-2.1.0-win32\glew-2.1.0\lib\Release\Win32\glew32s.lib;DAT\GameDev\freetype-2.9.1\objs\Win32\Release\freetype.lib;DAT\GameDev\openal-soft-1.19.1-bin\libs\Win32\OpenAL32.lib;DAT\GameDev\freealut-master\admin\VisualStudioDotNET\alut\Release\alut.lib</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>DAT\GameDev\freealut-master\include\AL;DAT\GameDev\OpenAL 1.1 SDK\include;DAT\GameDev\SDL2-2.0.7\include;DAT\GameDev\SDL2-2.0.7\lib\include;DAT\GameDev\SDL2_image-devel-2.0.1-VC\SDL2_image-2.0.1\include;%(AdditionalDependencies);DAT\GameDev\glm-0.9.7.3\glm\glm;DAT\GameDev\glew-2.1.0-win32\glew-2.1.0\include\GL;DAT\GameDev\freetype-2.9.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;6011;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;opengl32.lib;DAT\GameDev\SDL2-2.0.7\lib\x64\SDL2.lib;DAT\GameDev\SDL2-2.0.7\lib\x64\SDL2main.lib;DAT\GameDev\SDL2_image-devel-2.0.1-VC\SDL2_image-2.0.1\lib\x64\SDL2_image.lib;DAT\GameDev\glew-2.1.0-win32\glew-2.1.0\lib\Release\x64\glew32.lib;DAT\GameDev\glew-2.1.0-win32\glew-2.1.0\lib\Release\x64\glew32s.lib;DAT\GameDev\freetype-2.9.1\objs\x64\Release\freetype.lib;DAT\GameDev\OpenAL 1.1 SDK\libs\Win64\OpenAL32.lib;DAT\GameDev\freealut-master\admin\VisualStudioDotNET\alut\Release\alut.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>DAT\GameDev\freealut-master\include\AL;DAT\GameDev\openal-soft-1.19.1-bin\include\AL;DAT\GameDev\SDL2-2.0.7\include;DAT\GameDev\SDL2-2.0.7\lib\include;DAT\GameDev\SDL2_image-devel-2.0.1-VC\SDL2_image-2.0.1\include;%(AdditionalDependencies);DAT\GameDev\glm-0.9.7.3\glm\glm;DAT\GameDev\glew-2.1.0-win32\glew-2.1.0\include\GL;DAT\GameDev\freetype-2.9.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;6011;26495;4305</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;opengl32.lib;DAT\GameDev\SDL2-2.0.7\lib\x86\SDL2.lib;DAT\GameDev\SDL2-2.0.7\lib\x86\SDL2main.lib;DAT\GameDev\SDL2_image-devel-2.0.1-VC\SDL2_image-2.0.1\lib\x86\SDL2_image.lib;DAT\GameDev\glew-2.1.0-win32\glew-2.1.0\lib\Release\Win32\glew32.lib;DAT\GameDev\glew-2.1.0-win32\glew-2.1.0\lib\Release\Win32\glew32s.lib;DAT\GameDev\freetype-2.9.1\objs\Win32\Release\freetype.lib;DAT\GameDev\openal-soft-1.19.1-bin\libs\Win32\OpenAL32.lib;DAT\GameDev\freealut-master\admin\VisualStudioDotNET\alut\Release\alut.lib</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>DAT\GameDev\freealut-master\include\AL;DAT\GameDev\OpenAL 1.1 SDK\include;DAT\GameDev\SDL2-2.0.7\include;DAT\GameDev\SDL2-2.0.7\lib\include;DAT\GameDev\SDL2_image-devel-2.0.1-VC\SDL2_image-2.0.1\include;%(AdditionalDependencies);DAT\GameDev\glm-0.9.7.3\glm\glm;DAT\GameDev\glew-2.1.0-win32\glew-2.1.0\include\GL;DAT\GameDev\freetype-2.9.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;6011;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;opengl32.lib;DAT\GameDev\SDL2-2.0.7\lib\x64\SDL2.lib;DAT\GameDev\SDL2-2.0.7\lib\x64\SDL2main.lib;DAT\GameDev\SDL2_image-devel-2.0.1-VC\SDL2_image-2.0.1\lib\x64\SDL2_image.lib;DAT\GameDev\glew-2.1.0-win32\glew-2.1.0\lib\Release\x64\glew32.lib;DAT\GameDev\glew-2.1.0-win32\glew-2.1.0\lib\Release\x64\glew32s.lib;DAT\GameDev\freetype-2.9.1\objs\x64\Release\freetype.lib;DAT\GameDev\OpenAL 1.1 SDK\libs\Win64\OpenAL32.lib;DAT\GameDev\freealut-master\admin\VisualStudioDotNET\x64\Release\alut.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AfterImageEffect.h" />
+    <ClInclude Include="Animation2D.h" />
+    <ClInclude Include="Animation2DSequence.h" />
+    <ClInclude Include="Animation2DHandler.h" />
+    <ClInclude Include="AnimationTestObj.h" />
+    <ClInclude Include="animeTestScreen.h" />
+    <ClInclude Include="AssetHandler.h" />
+    <ClInclude Include="ASSET_LIST.h" />
+    <ClInclude Include="BattleScene.h" />
+    <ClInclude Include="BattleUIActionBox.h" />
+    <ClInclude Include="BattleUIAttackButton.h" />
+    <ClInclude Include="BattleUICharIcon.h" />
+    <ClInclude Include="BattleUICharIconFrame.h" />
+    <ClInclude Include="BattleUIDamageText.h" />
+    <ClInclude Include="BattleUIDescriptionBox.h" />
+    <ClInclude Include="BattleUIDescriptionText.h" />
+    <ClInclude Include="BattleUIEnemyStatusBox.h" />
+    <ClInclude Include="BattleUIManaText.h" />
+    <ClInclude Include="BattleUIOptionBox.h" />
+    <ClInclude Include="BattleUIPlayerStatusBox.h" />
+    <ClInclude Include="BattleUIRunButton.h" />
+    <ClInclude Include="BattleUISkill.h" />
+    <ClInclude Include="BattleUISkillButton.h" />
+    <ClInclude Include="BattleUIStatusIcon.h" />
+    <ClInclude Include="BattleUITech.h" />
+    <ClInclude Include="BattleUITechButton.h" />
+    <ClInclude Include="BattleUIText.h" />
+    <ClInclude Include="BattleUITextbox.h" />
+    <ClInclude Include="Black.h" />
+    <ClInclude Include="BoundingCollider.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CircleCollider.h" />
+    <ClInclude Include="Colliders.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="CollisionTest.h" />
+    <ClInclude Include="computeShaderHandler.h" />
+    <ClInclude Include="Cynthia.h" />
+    <ClInclude Include="EncounterMap.h" />
+    <ClInclude Include="EndScene.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="FontHandler.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="BattleUIHealthBar.h" />
+    <ClInclude Include="BattleUIhealthText.h" />
+    <ClInclude Include="GlobalObjectsHandler.h" />
+    <ClInclude Include="GLOBAL_VALUES.h" />
+    <ClInclude Include="HoodedNaracuva.h" />
+    <ClInclude Include="imageFrame.h" />
+    <ClInclude Include="LanguageMenu.h" />
+    <ClInclude Include="LanguageSelectButton.h" />
+    <ClInclude Include="languageShow.h" />
+    <ClInclude Include="leveltwo.h" />
+    <ClInclude Include="LightSource.h" />
+    <ClInclude Include="BattleUIManaBar.h" />
+    <ClInclude Include="LoadingLoad.h" />
+    <ClInclude Include="LoadingPoint.h" />
+    <ClInclude Include="loadingScreen.h" />
+    <ClInclude Include="MapPlayer.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="mtlLoader.h" />
+    <ClInclude Include="NiftyConversions.h" />
+    <ClInclude Include="objLoader.h" />
+    <ClInclude Include="OpenGLTest.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="ParticleEffects.h" />
+    <ClInclude Include="particleFrame.h" />
+    <ClInclude Include="ParticleTest.h" />
+    <ClInclude Include="particleTestObject.h" />
+    <ClInclude Include="respawner.h" />
+    <ClInclude Include="RKGBinary.h" />
+    <ClInclude Include="roundSpherePartFount.h" />
+    <ClInclude Include="SCENE_LIST.h" />
+    <ClInclude Include="ScottTest.h" />
+    <ClInclude Include="ShaderHandler.h" />
+    <ClInclude Include="ShaderLoader.h" />
+    <ClInclude Include="skull.h" />
+    <ClInclude Include="slashLineEffect.h" />
+    <ClInclude Include="SlashWave.h" />
+    <ClInclude Include="SquareCollider.h" />
+    <ClInclude Include="DescText.h" />
+    <ClInclude Include="testBattleScene.h" />
+    <ClInclude Include="testEncounterMap.h" />
+    <ClInclude Include="TestSquareNPCGreen.h" />
+    <ClInclude Include="textMesh.h" />
+    <ClInclude Include="HarikenText.h" />
+    <ClInclude Include="Time.h" />
+    <ClInclude Include="InputSys.h" />
+    <ClInclude Include="levelone.h" />
+    <ClInclude Include="QuitButton.h" />
+    <ClInclude Include="StartButton.h" />
+    <ClInclude Include="TestSquare.h" />
+    <ClInclude Include="TestSquareNPC.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TitleScreen.h" />
+    <ClInclude Include="TitlePicture.h" />
+    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="TriangleCollider.h" />
+    <ClInclude Include="tutPicture.h" />
+    <ClInclude Include="UIObject.h" />
+    <ClInclude Include="Unit.h" />
+    <ClInclude Include="WindowSys.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AfterImageEffect.cpp" />
+    <ClCompile Include="Animation2D.cpp" />
+    <ClCompile Include="Animation2DSequence.cpp" />
+    <ClCompile Include="Animation2DHandler.cpp" />
+    <ClCompile Include="AnimationTestObj.cpp" />
+    <ClCompile Include="animeTestScreen.cpp" />
+    <ClCompile Include="AssetHandler.cpp" />
+    <ClCompile Include="BattleScene.cpp" />
+    <ClCompile Include="BattleUIActionBox.cpp" />
+    <ClCompile Include="BattleUIAttackButton.cpp" />
+    <ClCompile Include="BattleUICharIcon.cpp" />
+    <ClCompile Include="BattleUICharIconFrame.cpp" />
+    <ClCompile Include="BattleUIDamageText.cpp" />
+    <ClCompile Include="BattleUIDescriptionBox.cpp" />
+    <ClCompile Include="BattleUIDescriptionText.cpp" />
+    <ClCompile Include="BattleUIEnemyStatusBox.cpp" />
+    <ClCompile Include="BattleUIManaText.cpp" />
+    <ClCompile Include="BattleUIOptionBox.cpp" />
+    <ClCompile Include="BattleUIPlayerStatusBox.cpp" />
+    <ClCompile Include="BattleUIRunButton.cpp" />
+    <ClCompile Include="BattleUISkill.cpp" />
+    <ClCompile Include="BattleUISkillButton.cpp" />
+    <ClCompile Include="BattleUIStatusIcon.cpp" />
+    <ClCompile Include="BattleUITech.cpp" />
+    <ClCompile Include="BattleUITechButton.cpp" />
+    <ClCompile Include="BattleUIText.cpp" />
+    <ClCompile Include="BattleUITextbox.cpp" />
+    <ClCompile Include="Black.cpp" />
+    <ClCompile Include="BoundingCollider.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CircleCollider.cpp" />
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="CollisionTest.cpp" />
+    <ClCompile Include="computeShaderHandler.cpp" />
+    <ClCompile Include="Cynthia.cpp" />
+    <ClCompile Include="EncounterMap.cpp" />
+    <ClCompile Include="EndScene.cpp" />
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="FontHandler.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GlobalObjectsHandler.cpp" />
+    <ClCompile Include="HarikenEngine.cpp" />
+    <ClCompile Include="BattleUIHealthBar.cpp" />
+    <ClCompile Include="BattleUIHealthText.cpp" />
+    <ClCompile Include="HoodedNaracuva.cpp" />
+    <ClCompile Include="imageFrame.cpp" />
+    <ClCompile Include="InputSys.cpp" />
+    <ClCompile Include="LanguageMenu.cpp" />
+    <ClCompile Include="LanguageSelectButton.cpp" />
+    <ClCompile Include="languageShow.cpp" />
+    <ClCompile Include="levelone.cpp" />
+    <ClCompile Include="leveltwo.cpp" />
+    <ClCompile Include="LightSource.cpp" />
+    <ClCompile Include="BattleUIManaBar.cpp" />
+    <ClCompile Include="LoadingLoad.cpp" />
+    <ClCompile Include="LoadingPoint.cpp" />
+    <ClCompile Include="loadingScreen.cpp" />
+    <ClCompile Include="MapPlayer.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="mtlLoader.cpp" />
+    <ClCompile Include="NiftyConversions.cpp" />
+    <ClCompile Include="objLoader.cpp" />
+    <ClCompile Include="OpenGLTest.cpp" />
+    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="ParticleEffects.cpp" />
+    <ClCompile Include="particleFrame.cpp" />
+    <ClCompile Include="ParticleTest.cpp" />
+    <ClCompile Include="particleTestObject.cpp" />
+    <ClCompile Include="QuitButton.cpp" />
+    <ClCompile Include="respawner.cpp" />
+    <ClCompile Include="RKGBinary.cpp" />
+    <ClCompile Include="roundSpherePartFount.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="ScottTest.cpp" />
+    <ClCompile Include="ShaderHandler.cpp" />
+    <ClCompile Include="ShaderLoader.cpp" />
+    <ClCompile Include="skull.cpp" />
+    <ClCompile Include="slashLineEffect.cpp" />
+    <ClCompile Include="SlashWave.cpp" />
+    <ClCompile Include="GLOBAL_VALUES.cpp" />
+    <ClCompile Include="SquareCollider.cpp" />
+    <ClCompile Include="StartButton.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="DescText.cpp" />
+    <ClCompile Include="testBattleScene.cpp" />
+    <ClCompile Include="testEncounterMap.cpp" />
+    <ClCompile Include="TestSquare.cpp" />
+    <ClCompile Include="TestSquareNPC.cpp" />
+    <ClCompile Include="TestSquareNPCGreen.cpp" />
+    <ClCompile Include="textMesh.cpp" />
+    <ClCompile Include="HarikenText.cpp" />
+    <ClCompile Include="Time.cpp" />
+    <ClCompile Include="TitleScreen.cpp" />
+    <ClCompile Include="TitlePicture.cpp" />
+    <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="TriangleCollider.cpp" />
+    <ClCompile Include="tutPicture.cpp" />
+    <ClCompile Include="UIObject.cpp" />
+    <ClCompile Include="Unit.cpp" />
+    <ClCompile Include="WindowSys.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

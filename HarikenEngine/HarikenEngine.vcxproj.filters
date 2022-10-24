@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Testing">
+      <UniqueIdentifier>{f2b543aa-0477-48f1-986e-fb48b6538b5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Testing\Header Files">
+      <UniqueIdentifier>{eeffbc8d-1c8d-4975-ac65-28b3806fe792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Testing\Source Files">
+      <UniqueIdentifier>{b6227dd8-f58c-46c0-93e1-e586865957ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meiun">
+      <UniqueIdentifier>{f7daf690-7182-4e19-a4ca-e566dd2cb26e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meiun\UI">
+      <UniqueIdentifier>{19bbc5c0-4217-4069-aea1-5b2e9a8c3706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meiun\UI\Header">
+      <UniqueIdentifier>{4e666c91-1aae-49b0-a9de-b7989287944f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meiun\UI\Source">
+      <UniqueIdentifier>{96b0230c-7df1-47f1-9cb6-5c9e642c286e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{91c0e0f3-7197-400d-bbd2-c80a2a996322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Engine\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Meiun\Game">
+      <UniqueIdentifier>{351f2a06-b055-4fe8-8b78-9850371721f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meiun\Game\Header">
+      <UniqueIdentifier>{cc2f0d09-92bf-4d16-bba6-318e63b8b510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meiun\Game\Source">
+      <UniqueIdentifier>{f1ce3b22-34f5-4f4d-904c-e7cab831cd96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RKGBinary">
+      <UniqueIdentifier>{10c52420-a198-4bcb-8b76-c17373c72a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Dependencies">
+      <UniqueIdentifier>{eaef3faf-e7c8-4371-bcb1-356bd5cece3d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowSys.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSys.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="levelone.h">
+      <Filter>Testing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QuitButton.h">
+      <Filter>Testing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StartButton.h">
+      <Filter>Testing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSquare.h">
+      <Filter>Testing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSquareNPC.h">
+      <Filter>Testing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cynthia.h">
+      <Filter>Testing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderLoader.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imageFrame.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightSource.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderHandler.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="objLoader.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mtlLoader.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2DHandler.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEffects.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="particleFrame.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="computeShaderHandler.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollider.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SquareCollider.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleCollider.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingCollider.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Colliders.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2DSequence.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIObject.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FontHandler.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="textMesh.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="leveltwo.h">
+      <Filter>Testing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalObjectsHandler.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NiftyConversions.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUIActionBox.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUIAttackButton.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUICharIcon.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUICharIconFrame.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUIDamageText.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUIDescriptionBox.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUIDescriptionText.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUIEnemyStatusBox.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUIHealthBar.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUIhealthText.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUIManaBar.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUIManaText.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUIOptionBox.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUIPlayerStatusBox.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUIRunButton.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUISkill.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUISkillButton.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUIStatusIcon.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUITech.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUITechButton.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUIText.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUITextbox.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="animeTestScreen.h">
+      <Filter>Testing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleScene.h">
+      <Filter>Meiun\Game\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Black.h">
+      <Filter>Meiun\Game\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="EncounterMap.h">
+      <Filter>Meiun\Game\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="HoodedNaracuva.h">
+      <Filter>Meiun\Game\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MapPlayer.h">
+      <Filter>Meiun\Game\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="particleTestObject.h">
+      <Filter>Testing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roundSpherePartFount.h">
+      <Filter>Meiun\Game\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="respawner.h">
+      <Filter>Testing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="slashLineEffect.h">
+      <Filter>Meiun\Game\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SlashWave.h">
+      <Filter>Meiun\Game\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AfterImageEffect.h">
+      <Filter>Meiun\Game\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Meiun\Game\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScene.h">
+      <Filter>Testing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="testBattleScene.h">
+      <Filter>Testing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="testEncounterMap.h">
+      <Filter>Testing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSquareNPCGreen.h">
+      <Filter>Testing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetHandler.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RKGBinary.h">
+      <Filter>RKGBinary</Filter>
+    </ClInclude>
+    <ClInclude Include="loadingScreen.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingLoad.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingPoint.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ASSET_LIST.h">
+      <Filter>Game Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="SCENE_LIST.h">
+      <Filter>Game Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="HarikenText.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DescText.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LanguageSelectButton.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LanguageMenu.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="languageShow.h">
+      <Filter>Meiun\UI\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationTestObj.h">
+      <Filter>Testing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionTest.h">
+      <Filter>Testing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleTest.h">
+      <Filter>Testing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tutPicture.h">
+      <Filter>Meiun\Game\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GLOBAL_VALUES.h">
+      <Filter>Game Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScreen.h">
+      <Filter>Meiun\Game\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TitlePicture.h">
+      <Filter>Meiun\Game\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLTest.h">
+      <Filter>Testing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScottTest.h">
+      <Filter>Testing\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="skull.h">
+      <Filter>Testing\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HarikenEngine.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowSys.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSys.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SquareCollider.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="levelone.cpp">
+      <Filter>Testing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QuitButton.cpp">
+      <Filter>Testing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StartButton.cpp">
+      <Filter>Testing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSquare.cpp">
+      <Filter>Testing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSquareNPC.cpp">
+      <Filter>Testing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollider.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleCollider.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cynthia.cpp">
+      <Filter>Testing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScene.cpp">
+      <Filter>Testing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="leveltwo.cpp">
+      <Filter>Testing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderLoader.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imageFrame.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightSource.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderHandler.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="objLoader.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingCollider.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mtlLoader.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2DHandler.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEffects.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="particleFrame.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="computeShaderHandler.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2DSequence.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIObject.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FontHandler.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="textMesh.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalObjectsHandler.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NiftyConversions.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUIActionBox.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUIAttackButton.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUICharIcon.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUICharIconFrame.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUIDamageText.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUIDescriptionBox.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUIDescriptionText.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUIEnemyStatusBox.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUIHealthBar.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUIHealthText.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUIManaBar.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUIManaText.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUIOptionBox.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUIPlayerStatusBox.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUIRunButton.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUISkill.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUISkillButton.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUIStatusIcon.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUITech.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUITechButton.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUIText.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUITextbox.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AfterImageEffect.cpp">
+      <Filter>Meiun\Game\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleScene.cpp">
+      <Filter>Meiun\Game\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Black.cpp">
+      <Filter>Meiun\Game\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="EncounterMap.cpp">
+      <Filter>Meiun\Game\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="HoodedNaracuva.cpp">
+      <Filter>Meiun\Game\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MapPlayer.cpp">
+      <Filter>Meiun\Game\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="roundSpherePartFount.cpp">
+      <Filter>Meiun\Game\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="slashLineEffect.cpp">
+      <Filter>Meiun\Game\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SlashWave.cpp">
+      <Filter>Meiun\Game\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Meiun\Game\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationTestObj.cpp">
+      <Filter>Testing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="animeTestScreen.cpp">
+      <Filter>Testing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionTest.cpp">
+      <Filter>Testing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleTest.cpp">
+      <Filter>Testing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="particleTestObject.cpp">
+      <Filter>Testing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="respawner.cpp">
+      <Filter>Testing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testBattleScene.cpp">
+      <Filter>Testing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testEncounterMap.cpp">
+      <Filter>Testing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSquareNPCGreen.cpp">
+      <Filter>Testing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetHandler.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RKGBinary.cpp">
+      <Filter>RKGBinary</Filter>
+    </ClCompile>
+    <ClCompile Include="loadingScreen.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingLoad.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingPoint.cpp">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HarikenText.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DescText.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LanguageMenu.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LanguageSelectButton.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="languageShow.cpp">
+      <Filter>Meiun\UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="tutPicture.cpp">
+      <Filter>Meiun\Game\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GLOBAL_VALUES.cpp">
+      <Filter>Game Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScreen.cpp">
+      <Filter>Meiun\Game\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TitlePicture.cpp">
+      <Filter>Meiun\Game\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLTest.cpp">
+      <Filter>Testing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScottTest.cpp">
+      <Filter>Testing\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="skull.cpp">
+      <Filter>Testing\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
